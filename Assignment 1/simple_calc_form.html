@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<!--This is the header section -->
+		<title>Simple Calculator</title>
+	</head>
+	<body>
+		<!--This is the body section which has a title -->
+		<h1>Simple Calculator</h1><br />
+		<!--This begins the form,asks for a number, specifies the php file -->
+		<form action="simple_calc_response.php" method="GET">Enter First Number<br /><br />
+			<input type="number" name="number1"<br />
+		<!--I added text in the paragraph format -->
+		<p>Select Operation</p>
+		<!--This is my drop down for operation options -->
+		<select name="operation">
+			<option value="Add">Add</option>
+			<option value="Subtract">Subtract</option>
+			<option value="Multiply">Multiply</option>
+			<option value="Divide">Divide</option>
+		</select><br />
+		<!--This is the second number-->
+		<p>Enter Second Number<br /><br />
+			<input type="number" name="number2"><br /><br />
+		<!--This is the submit button -->
+		<input type="submit" name="submit" value="Submit">
+		<!--This ends the form -->
+		</form>
+	</body>
+</html>

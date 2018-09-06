@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<!--This is the header section -->
+		<title>Graduation Certificate</title>
+	</head>
+	<body>
+		<!--This is the body section which has a title -->
+		<h1>Custom Certificate of Graduation</h1><br />
+		<!--This begins the form,ask for the name, specifies the php file -->
+		<form action="hw1_response.php" method="GET">Enter Full Name<br /><br />
+			<input type="text" name="name"<br />
+		<!--I added text in the paragraph format -->
+		<p>Select Class Taken</p>
+		<!--This is my drop down for class options -->
+		<select name="class">
+			<option value="Physics">Physics</option>
+			<option value="Biology">Biology</option>
+			<option value="Math">Math</option>
+			<option value="Art">Art</option>
+			<option value="Drama">Drama</option>
+		</select><br />
+		<!--This is the date input type -->
+		<p>Date of Class<br /><br />
+			<input type="date" name="date"><br /><br />
+		<!--This is the submit button -->
+		<input type="submit" name="submit" value="Submit">
+		<!--This ends the form -->
+		</form>
+	</body>
+</html>
